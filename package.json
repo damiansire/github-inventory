@@ -1,0 +1,24 @@
+{
+  "name": "github-inventory",
+  "version": "1.0.0",
+  "description": "Create an inventory of your GitHub in CSV and obtain information about your programming habits and the repository's status.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damiansire/github-inventory.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/damiansire/github-inventory/issues"
+  },
+  "homepage": "https://github.com/damiansire/github-inventory#readme",
+  "dependencies": {
+    "@octokit/rest": "^19.0.13",
+    "dotenv": "^16.3.1"
+  }
+}
