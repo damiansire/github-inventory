@@ -128,4 +128,4 @@ dist
 .yarn/install-state.gz
 .pnp.*
 .env
-data-generated/github-inventory.csv
+data-generated
