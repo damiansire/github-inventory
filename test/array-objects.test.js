@@ -13,6 +13,18 @@ describe("getUniqueKeysFromArrayOfObjects", () => {
     expect(output).toEqual(expected);
   });
 
+  test("should return an empty array if the input array is empty object", () => {
+    // Test case setup
+    const input = [{}, {}];
+    const expected = [];
+
+    // Execute the function
+    const output = getUniqueKeysFromArrayOfObjets(input);
+
+    // Perform assertion
+    expect(output).toEqual(expected);
+  });
+
   test("should return the keys of an object when there is only one object in the array", () => {
     // Test case setup
     const singleObject = { name: "Damian", surname: "Sire", age: 25 };
