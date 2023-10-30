@@ -16,6 +16,7 @@ async function getRepositories() {
 }
 
 function repositorieReponsoToRepoPreview(repositorie) {
+  debugger
   return {
     id: repositorie.id,
     name: repositorie.name,
@@ -23,6 +24,10 @@ function repositorieReponsoToRepoPreview(repositorie) {
     description: repositorie.description,
     language: repositorie.language,
     topics: repositorie.topic,
+    archive: repositorie.archived,
+    created_at: repositorie.created_at,
+    updated_at: repositorie.updated_at,
+    visibility: repositorie.visibility
   };
 }
 
